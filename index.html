@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo">
+                    <a href="index.html" style="display:flex;align-items:center;text-decoration:none;color:inherit;">
+                    <img src="https://img.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg?semt=ais_hybrid"
+                        alt="Wanderlust Logo" width="80" height="80">
+                    <span class="logo-title">WANDERLUST TRAVEL AGENCY</span>
+                </a>
+            </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#destinations" data-section="destinations">Destinations</a></li>
+                <li><a href="#packages" data-section="packages">Packages</a></li>
+                <li><a href="#about" data-section="about">About Us</a></li>
+                <li><a href="#contact" data-section="contact">Contact Us</a></li>
+                <li><a href="#booking" data-section="booking">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero section" id="hero">
+            <div class="hero-content">
+                <div class="nav-search">
+                    <input type="text" placeholder="Search Destinations..." class="search-input" id="destinationSearch">
+                    <div class="search-icon">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+                <h1 class="main-title">Wanderlust Travel Agency</h1>
+                <h6 class="main-tagline">Discover new horizons and create unforgettable memories...</h6>
+                <a href="#booking" class="main-btn" data-section="booking">Plan Your Trip</a>
+            </div>
+        </section>
+
+        <!-- DESTINATIONS SECTION -->
+        <section class="destinations-section section" id="destinations">
+            <h2><b><br>Popular Destinations</b><br></b></h2>
+            <div class="destinations">
+                <div class="destination-card">
+                    <img src="paris.jpg" alt="Paris, France">
+                    <h3>Paris, France</h3>
+                    <p>Explore the City of Love.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="goa.jpg" alt="Goa, India">
+                    <h3>Goa, India</h3>
+                    <p>Relax on the beautiful beaches.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="template.jpg" alt="Thailand">
+                    <h3>Bangkok,Thailand</h3>
+                    <p>Experience the city that never sleeps.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="rome.jpeg" alt="New Destination">
+                    <h3>Rome, Italy</h3>
+                    <p>Discover ancient history and culture.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="tokyo.jpg" alt="Tokyo, Japan">
+                    <h3>Tokyo, Japan</h3>
+                    <p>Experience tradition and technology.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="sydeny.jpg" alt="Sydney, Australia">
+                    <h3>Sydney, Australia</h3>
+                    <p>Enjoy iconic beaches and Opera House.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="london.jpg" alt="London, UK">
+                    <h3>London, UK</h3>
+                    <p>Marvel at world-class history and culture.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="destination-card">
+                    <img src="capetown.jpg" alt="Cape Town, South Africa">
+                    <h3>Cape Town, South Africa</h3>
+                    <p>Explore landscapes and dynamic city life.</p>
+                    <a href="#booking" class="btn book-btn" data-section="booking">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PACKAGES SECTION -->
+        <section class="packages-section section" id="packages">
+            <h2><b>Our Packages</b></h2>
+            <div class="packages">
+                <div class="package-card">
+                    <img src="rg.jpg" alt="Romantic Gateway">
+                    <h3>Romantic Gateaway</h3>
+                    <p>3-day trip to Paris</p>
+                    <p class="price">$1200</p>
+                    <a href="#booking" class="btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <img src="maldives.jpg" alt="Luxury Maldives">
+                    <h3>Luxury Escape</h3>
+                    <p>5-day stay at Maldives Resort</p>
+                    <p class="price">$1800</p>
+                    <a href="#booking" class="btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <img src="usa.jpg" alt="New York, USA">
+                    <h3>Urban Explorer</h3>
+                    <p>4-day adventure in New York City</p>
+                    <p class="price">$1400</p>
+                    <a href="#booking" class="btn" data-section="booking">Book Now</a>
+                </div>
+                <div class="package-card">
+                    <img src="egyp.jpg" alt="Egypt Adventure">
+                    <h3>Pyramids & Nile Cruise</h3>
+                    <p>7-day tour across Egypt</p>
+                    <p class="price">$1700</p>
+                    <a href="#booking" class="btn" data-section="booking">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT US -->
+        <section class="about section" id="about">
+            <h1>About Us</h1>
+            <h2>Welcome to Wanderlust Travel Agency</h2>
+            <p>At Wanderlust Travel Agency, we believe that travel is not just about visiting new places, but about experiencing new cultures, meeting new people, and creating unforgettable memories. Our mission is to make your travel dreams come true by providing exceptional travel experiences tailored to your preferences.</p>
+            <p>Established in 2010, Wanderlust Travel Agency has been dedicated to offering the best travel services to our clients. Our team of experienced travel experts works tirelessly to ensure that your trips are seamless, enjoyable, and memorable.</p>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Customized tour packages</li>
+                <li>Flight and hotel bookings</li>
+                <li>Travel insurance</li>
+                <li>Visa assistance</li>
+                <li>24/7 customer support</li>
+            </ul>
+            <h2>Why Choose Us?</h2>
+            <p>With a passion for travel and a commitment to excellence, we strive to provide the highest quality of service to our clients. Our extensive network of partners allows us to offer competitive prices and exclusive deals, ensuring that you get the best value for your money.</p>
+            <p>Join us on a journey of discovery and adventure, and let Wanderlust Travel Agency be your trusted travel companion.</p>
+        </section>
+
+        <!-- CONTACT US -->
+        <section class="contact section" id="contact">
+            <header><h1>Contact Us</h1></header>
+            <h2>Get in Touch</h2>
+            <p>We would love to hear from you! Whether you have questions about our services, need assistance with your booking, or simply want to share your travel experiences, feel free to reach out to us.</p>
+            <form id="contactForm">
+                <label for="contactName">Full Name:</label>
+                <input type="text" id="contactName" name="name" required>
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="email" required>
+                <label for="contactSubject">Subject:</label>
+                <input type="text" id="contactSubject" name="subject" required>
+                <label for="contactMessage">Message:</label>
+                <textarea id="contactMessage" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+                <div class="confirmation-msg" style="display:none" id="contactConfirmation"></div>
+            </form>
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: info@wanderlusttravel.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Travel St, Wanderlust City, WC 12345</p>
+            </section>
+        </section>
+
+        <!-- BOOKING FORM -->
+        <section class="booking-form section" id="booking">
+            <div class="container">
+                <h1>Book Your Travel Destination</h1>
+                <form id="myForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <span id="nameError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <span id="emailError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile No:</label>
+                        <input type="text" id="mobile" name="mobile">
+                        <span id="mobileError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age">
+                        <span id="ageError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="departure">Departure Date:</label>
+                        <input type="date" id="departure" name="departure">
+                        <span id="departureError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="return">Return Date:</label>
+                        <input type="date" id="returnDate" name="return">
+                        <span id="returnError" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" name="destination">
+                        <span id="destinationError" class="error"></span>
+                    </div>
+                    <button type="button" id="submitBooking">Submit</button>
+                    <div class="confirmation-msg" style="display:none" id="bookingConfirmation"></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials-section">
+            <h2><b>What Our Clients Say</b></h2>
+            <div class="testimonials-marquee">
+                <div class="testimonial-card"><h3>Yuvraj Yadav</h3><p>"Excellent service! Highly recommend."</p></div>
+                <div class="testimonial-card"><h3>Ujjwal Mishra</h3><p>"Amazing experience! Will definitely use again."</p></div>
+                <div class="testimonial-card"><h3>Karan Rao</h3><p>"Great Experience, Thanks for great trip."</p></div>
+                <div class="testimonial-card"><h3>Priya Sharma</h3><p>"Our Bali holiday was perfectly arranged—many thanks to Wanderlust!"</p></div>
+                <div class="testimonial-card"><h3>Alex Chen</h3><p>"Quick support and memorable adventures. Will recommend to friends!"</p></div>
+                <!-- Duplicate testimonials for smooth infinite scrolling -->
+                <div class="testimonial-card"><h3>Yuvraj Yadav</h3><p>"Excellent service! Highly recommend."</p></div>
+                <div class="testimonial-card"><h3>Ujjwal Mishra</h3><p>"Amazing experience! Will definitely use again."</p></div>
+                <div class="testimonial-card"><h3>Karan Rao</h3><p>"Great Experience, Thanks for great trip."</p></div>
+                <div class="testimonial-card"><h3>Priya Sharma</h3><p>"Our Bali holiday was perfectly arranged—many thanks to Wanderlust!"</p></div>
+                <div class="testimonial-card"><h3>Alex Chen</h3><p>"Quick support and memorable adventures. Will recommend to friends!"</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>1996-2025 Wanderlust.com Inc. or its affiliates</p>
+        <p>&copy; 2025 Wanderlust Travel Agency</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
